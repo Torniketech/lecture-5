@@ -1,6 +1,5 @@
 header {
 	height: 50px;
-	max-width: 1440px;
 	width: 100%;
 	position: fixed;
 	top: 0;
@@ -16,8 +15,11 @@ header {
 	vertical-align: middle;
 }
 
-.nav {
+.headernav {
 	display: inline-block;
+	vertical-align: middle;
+}
+ul {
 	vertical-align: middle;
 }
 li {
@@ -25,7 +27,7 @@ li {
 	margin-right: 20px;
 	vertical-align: middle;
 }
-li a {
+.headernav a {
 	font-size: 11px;
 	font-weight: bold;
 	color: black;
@@ -33,4 +35,124 @@ li a {
 img {
 	display: inline-block;
 	vertical-align: middle;
+}
+
+/*  */
+.s-1 {
+	margin-top: 50px;
+	margin-bottom: 37px;
+}
+
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+.container h2 {
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 20px;
+	color: #202124;
+	margin-bottom: 40px;
+}
+.left-wrap {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 40px;
+}
+.left-wrap div {
+	width: 760px;
+	height: 430px;
+}
+.left-top {
+	position: relative;
+	margin-bottom: 40px;
+}
+.left-top h5 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 20px;
+	font-style: normal;
+	color: #ffffff;
+}
+.right-wrap {
+	width: 360px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.right-wrap img {
+	margin-bottom: 90px;
+}
+
+/*  */
+
+footer {
+	height: 200px;
+	width: 100%;
+	background-color: #a6adb4;
+	padding: 60px;
+}
+.footerlogo {
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 20px;
+	font-style: normal;
+	text-align: left;
+	color: #ffffff;
+	display: inline-block;
+	margin-left: 152px;
+	margin-right: 76px;
+	vertical-align: top;
+}
+footer nav {
+	width: 75px;
+	vertical-align: top;
+}
+footer a {
+	color: #cbd0d3;
+}
+footer p {
+	width: 245px;
+	height: 10px;
+	font-size: 11px;
+	font-weight: 400;
+	line-height: 20px;
+	font-style: normal;
+	text-align: left;
+	color: #cbd0d3;
+	display: inline-block;
+	vertical-align: top;
+}
+.footer1 {
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 20px;
+	font-style: normal;
+	text-align: left;
+	color: #cbd0d3;
+	display: inline-block;
+	margin-right: 69px;
+}
+.footer2 {
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 20px;
+	font-style: normal;
+	text-align: left;
+	color: #cbd0d3;
+	display: inline-block;
+	margin-right: 84px;
+}
+.footer3 {
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 20px;
+	font-style: normal;
+	text-align: left;
+	color: #cbd0d3;
+	display: inline-block;
+	margin-right: 104px;
 }
